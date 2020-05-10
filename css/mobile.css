@@ -1,0 +1,27 @@
+@media (max-width: 600px){
+   
+    .products{
+        display: inherit;
+        height: auto;
+    }
+    
+    .product{
+        margin-top: auto;
+    }
+
+    .main.section{
+        padding: 4%;
+    }
+
+    .second-part, .card-content{
+        /* display: inherit; */
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+        height: auto;
+    }
+
+    /* .card-content{
+        align-items: center;
+    } */
+
+}   
