@@ -20,7 +20,9 @@ html,body{
   font-family: Helvetica;
   margin: 0px;  /*Espaciado que tiene hacia fuera*/
   padding: 0px; /*Es el espaciado que tiene hacia dentro*/
+  min-height: 100vh;
 }
+
 
 nav{
   align-items: center;
@@ -223,5 +225,5 @@ nav div img{
 .footer-item {
   color: var(--white-color);
   font-size: var(--normal);
-  margin: 30px;
+  /* margin: 30px; */
 }
