@@ -171,6 +171,7 @@ nav div img{
 .contain{
   display: flex;
   justify-content: center;
+  min-height: calc(100vh - 103px);  /*~footer's height + nav's height*/
 }
 
 .modulo-pago{
@@ -225,5 +226,5 @@ nav div img{
 .footer-item {
   color: var(--white-color);
   font-size: var(--normal);
-  /* margin: 30px; */
+  margin: 0 30px;
 }
